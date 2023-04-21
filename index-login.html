@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-bell.png">
+    <link rel="stylesheet" href="../CSS/login-style.css">
+    <title>Login/Register</title>
+</head>
+<body>
+  <section>
+  <div class="all-container">
+    
+     <div id="loginBox" class="login-box">
+       <div id= "cardLog" class="card">
+         <h3> Sos del CLubBelldorf?</h3>
+         <p>Inicia sesiòn para ingresar.</p>
+         <button id= "btn-inSesiion">Iniciar Sesiòn</button>
+       </div>
+     
+       <div id="cardReg" class="card">
+        <h3> Aun no sos del CLubBelldorf?</h3>
+         <p>Regìstrate para ser parte.</p>
+         <button id="btn-inRegister">Registrarse</button>
+       </div>
+     </div>
+
+
+     <div id="contCard" class="login-container">
+        
+        <form action="" id="logCard"  class="login-card">
+            <h2>Iniciar Sesiòn</h2>
+            <input id="userL" type="text" class="user-input" name="username" placeholder="Usuario">
+            <input id="passwordL" type="password" class="user-input" name="password" placeholder="Contraseña"> 
+            <button id="btn" class="button" onclick="login()">Iniciar Sesion</button>
+        </form>
+
+        <form action="" id="regCard" class="register-card">
+            <h2>Registrarse</h2>
+            <input type="text" placeholder="Nombre Completo">
+            <input type="text" placeholder="Correo Electronico">
+            <input type="text" placeholder="Usuario">
+            <input type="password" placeholder="Contraseña">
+            <input type="password" placeholder="Repetir Contraseña">
+            <button>Registrarse</button>
+        </form>
+
+
+     </div>
+  </div> 
+</section> 
+    <script src="./JS/login.js"></script>
+    <script src="./JS/pass.js"></script>
+</body>
+</html>
